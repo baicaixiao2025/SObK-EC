@@ -1,0 +1,48 @@
+# Keil MDK — 编译中间文件
+*.o
+*.d
+*.crf
+*.axf
+*.lst
+*.lnp
+*.htm
+*.sct
+*.map
+*.dep
+*.bak
+*.ddk
+*.edk
+*.mpf
+*.mpj
+*.obj
+*.omf
+*.plg
+*.rpt
+*.tmp
+*.__i
+*.tra
+*.iex
+JLinkLog.txt
+
+# Keil MDK — 用户特定配置（含 Windows 用户名路径）
+*.uvguix.*
+*.uvgui.*
+
+# Debug 配置
+DebugConfig/
+
+# Objects & Listings 目录中的生成文件
+Objects/*.o
+Objects/*.d
+Objects/*.crf
+Objects/*.axf
+Objects/*.htm
+Objects/*.sct
+Objects/*.lnp
+Objects/*.dep
+Listings/*.lst
+Listings/*.map
+
+# 保留 Objects 和 Listings 目录结构
+!Objects/.gitkeep
+!Listings/.gitkeep
