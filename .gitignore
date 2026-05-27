@@ -46,3 +46,6 @@ Listings/*.map
 # 保留 Objects 和 Listings 目录结构
 !Objects/.gitkeep
 !Listings/.gitkeep
+
+# Claude Code 本地配置（含权限设置，不应公开）
+.claude/
